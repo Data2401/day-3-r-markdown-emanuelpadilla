@@ -1,6 +1,6 @@
 ---
 title: 'RMarkdown:  In Class Assignment'
-author: "YOUR NAME HERE"
+author: "Emanuel Padilla"
 date: "Data 2401"
 output: 
   html_document:
@@ -38,11 +38,30 @@ Reminders:
 - Make another *subsection* called "I recommend", and add some information about your favorite author or musician: 
   - A _subsubheading_ with the name of the artist or author;    
   - An example of their writing or lyrics (formatted in a *block of text*);   
-  - A _list_ of things they have written or performed (remember to use the formatting markup for a list!), with any of the titles/names in bold.     
+  - A _list_ of things they have written or performed (remember to use the formatting markup for a list!), with any of the titles/names in bold.
+  
+# Your work here
+## Wise words 
+> Little by little you will create big results. [More info about the  quote](https://www.drginacleo.com/post/the-power-of-tiny-habits-why-small-changes-create-big-results) 
+
+## I recommend:
+### Bruno Mars
+```
+Talking to the moon, in hopes you are on the other side talking to me too. 
+```
+
+* **Treasure**
+* **24k Magic**
+* **Locked out of heaven**
+
+
+
+
+
 
 # Part 2: Code Chunks
 
-```{r}
+```{r echo = TRUE}
 2 + 2
 ```
 
@@ -57,6 +76,8 @@ Complete the following steps:
   - Why might someone want to hide code in a report?
   - Why might someone want to show code in a report?
   
+The changes between the TRUE and FALSE outputs either showed the code or not. The calculation still ran when the code was hidden. Someone might want to hide code if its long or unnecessary. If the code is important then code must be shown.
+  
 # Part 3: A small R-in-markdown preview
 
 - Create a subsection within this section called About this document.
@@ -66,7 +87,8 @@ Complete the following steps:
 > To include inline code, use this weird little `r 2+2` pattern, putting the code where I have 2+2 (which is code!) 
 > You can use the function `Sys.Date()`, which would be added like this `r Sys.Date()` but you can do something else if you want. (Look at the knit html to see what this does.)
 
- 
+## About this document
+This document is an Rmarkdown file which helps us read the text and get to the point in collaboration with not R and Markdown. Producing a clean documentation for the code. Compared to other HTML which is dense with more clutter.  `r Sys.Date()`
 
 # Submitting Instructions
 
