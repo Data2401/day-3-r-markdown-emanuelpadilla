@@ -88,11 +88,11 @@ The changes between the TRUE and FALSE outputs either showed the code or not. Th
 > You can use the function `Sys.Date()`, which would be added like this `r Sys.Date()` but you can do something else if you want. (Look at the knit html to see what this does.)
 
 ## About this document
-This document is an Rmarkdown file which helps us read the text and get to the point in collaboration with not R and Markdown. Producing a clean documentation for the code. Compared to other HTML which is dense with more clutter.  `r Sys.Date()`
+This document is an Rmarkdown file which helps us read the text and get to the point in collaboration with not R and Markdown. Producing a clean documentation for the code. Compared to other HTML which is dense with more clutter.  Todays date is `r Sys.Date()`
 
 # Submitting Instructions
 
-When you are finished: 
+When you are finished:  
 
 - Knit the document so that it produces an html file.
 - Stage, commit, and push:
